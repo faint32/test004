@@ -16,6 +16,8 @@
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 # echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
+echo 'src-git luciappamlogic https://github.com/ophub/luci-app-amlogic.git' >>feeds.conf.default
+
 # Lienol/openwrt-package
 # sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
 # sed -i '$a src-git xiaorouji https://github.com/xiaorouji/openwrt-passwall-packages.git' feeds.conf.default
