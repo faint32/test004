@@ -6,7 +6,7 @@
 # Blog: https://P3TERX.com
 #=================================================
 
-name: OpenWrt Builder mjh-new 0803
+name: OpenWrt Builder mjh-new
 
 on:
   repository_dispatch:
@@ -108,9 +108,9 @@ jobs:
         /usr/local/share/powershell /usr/local/share/chromium /usr/local/lib/node_modules
         sudo docker image prune --all --force
         sudo timedatectl set-timezone "$TZ"
+        sudo chown $USER:$GROUPS $GITHUB_WORKSPACE
 #        sudo mkdir -p /workdir
 #        sudo chown $USER:$GROUPS /workdir
-        sudo chown $USER:$GROUPS $GITHUB_WORKSPACE
 
     - name: Clone source code
       working-directory: ./
@@ -147,7 +147,6 @@ jobs:
         cd openwrt
         make defconfig
         make download -j$(($(nproc) * 3 / 2))
-#        make download -j8
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
 
@@ -157,7 +156,6 @@ jobs:
         cd openwrt
         echo -e "$(nproc) thread compile"
         make -j$(($(nproc) * 3 / 2)) || make -j1 || make -j1 V=s
-#        make -j$(nproc) || make -j1 || make -j1 V=s
         echo "status=success" >> $GITHUB_OUTPUT
         grep '^CONFIG_TARGET.*DEVICE.*=y' .config | sed -r 's/.*DEVICE_(.*)=y/\1/' > DEVICE_NAME
         [ -s DEVICE_NAME ] && echo "DEVICE_NAME=_$(cat DEVICE_NAME)" >> $GITHUB_ENV
@@ -165,7 +163,6 @@ jobs:
 
     - name: Check space usage
       if: ${{ !cancelled() }}
-#      if: (!cancelled())
       run: df -hT
 
     - name: Upload bin directory
