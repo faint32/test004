@@ -6,7 +6,7 @@
 # Blog: https://P3TERX.com
 #=================================================
 
-name: OpenWrt Builder mjh-new
+name: OpenWrt Builder mjh-new 0803
 
 on:
   repository_dispatch:
