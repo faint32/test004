@@ -1,227 +1,379 @@
-CONFIG_TARGET_amlogic=y
-CONFIG_TARGET_amlogic_mesongx=y
-CONFIG_TARGET_amlogic_mesongx_DEVICE_phicomm_n1=y
-CONFIG_BTRFS_PROGS_ZSTD=y
-CONFIG_CGROUPFS_MOUNT_KERNEL_CGROUPS=y
-CONFIG_DOCKER_CGROUP_OPTIONS=y
-CONFIG_DOCKER_NET_MACVLAN=y
-CONFIG_DOCKER_OPTIONAL_FEATURES=y
-CONFIG_DOCKER_STO_EXT4=y
-CONFIG_KERNEL_ARM_PMU=y
-CONFIG_KERNEL_CFQ_GROUP_IOSCHED=y
-CONFIG_KERNEL_CGROUP_DEVICE=y
-CONFIG_KERNEL_CGROUP_FREEZER=y
-CONFIG_KERNEL_CGROUP_HUGETLB=y
-CONFIG_KERNEL_CGROUP_NET_PRIO=y
-CONFIG_KERNEL_CGROUP_PERF=y
-CONFIG_KERNEL_HUGETLBFS=y
-CONFIG_KERNEL_HUGETLB_PAGE=y
-CONFIG_KERNEL_MEMCG_SWAP_ENABLED=y
-CONFIG_KERNEL_NET_CLS_CGROUP=y
-CONFIG_KERNEL_PERF_EVENTS=y
-CONFIG_KERNEL_TRANSPARENT_HUGEPAGE=y
-CONFIG_KERNEL_TRANSPARENT_HUGEPAGE_ALWAYS=y
-CONFIG_LIBSSH2_OPENSSL=y
-CONFIG_OPENSSH_LIBFIDO2=y
-CONFIG_PACKAGE_MAC80211_DEBUGFS=y
-CONFIG_PACKAGE_MAC80211_MESH=y
-CONFIG_PACKAGE_TAR_BZIP2=y
-CONFIG_PACKAGE_TAR_GZIP=y
-CONFIG_PACKAGE_TAR_POSIX_ACL=y
-CONFIG_PACKAGE_TAR_XATTR=y
-CONFIG_PACKAGE_TAR_XZ=y
-CONFIG_PACKAGE_TAR_ZSTD=y
-CONFIG_PACKAGE_attr=y
-CONFIG_PACKAGE_bash=y
-CONFIG_PACKAGE_blkid=y
-CONFIG_PACKAGE_bsdtar=y
-CONFIG_PACKAGE_btrfs-progs=y
-CONFIG_PACKAGE_bzip2=y
-CONFIG_PACKAGE_cgroupfs-mount=y
-CONFIG_PACKAGE_chattr=y
-CONFIG_PACKAGE_containerd=y
-CONFIG_PACKAGE_dmesg=y
-CONFIG_PACKAGE_docker=y
-CONFIG_PACKAGE_docker-compose=y
-CONFIG_PACKAGE_dockerd=y
-CONFIG_PACKAGE_dos2unix=y
-CONFIG_PACKAGE_dosfstools=y
-CONFIG_PACKAGE_f2fs-tools=y
-CONFIG_PACKAGE_f2fsck=y
-CONFIG_PACKAGE_fdisk=y
-CONFIG_PACKAGE_file=y
-CONFIG_PACKAGE_gawk=y
-CONFIG_PACKAGE_getopt=y
-CONFIG_PACKAGE_glib2=y
-CONFIG_PACKAGE_grep=y
-CONFIG_PACKAGE_iconv=y
-CONFIG_PACKAGE_kmod-br-netfilter=y
-CONFIG_PACKAGE_kmod-crypto-acompress=y
-CONFIG_PACKAGE_kmod-crypto-ccm=y
-CONFIG_PACKAGE_kmod-crypto-cmac=y
-CONFIG_PACKAGE_kmod-crypto-ctr=y
-CONFIG_PACKAGE_kmod-crypto-gcm=y
-CONFIG_PACKAGE_kmod-crypto-gf128=y
-CONFIG_PACKAGE_kmod-crypto-ghash=y
-CONFIG_PACKAGE_kmod-crypto-hmac=y
-CONFIG_PACKAGE_kmod-crypto-rng=y
-CONFIG_PACKAGE_kmod-crypto-seqiv=y
-CONFIG_PACKAGE_kmod-crypto-sha512=y
-CONFIG_PACKAGE_kmod-dummy=y
-CONFIG_PACKAGE_kmod-fs-btrfs=y
-CONFIG_PACKAGE_kmod-ipt-physdev=y
-CONFIG_PACKAGE_kmod-lib-crc32c=y
-CONFIG_PACKAGE_kmod-lib-lzo=y
-CONFIG_PACKAGE_kmod-lib-raid6=y
-CONFIG_PACKAGE_kmod-lib-xor=y
-CONFIG_PACKAGE_kmod-lib-zlib-deflate=y
-CONFIG_PACKAGE_kmod-lib-zlib-inflate=y
-CONFIG_PACKAGE_kmod-lib-zstd=y
-CONFIG_PACKAGE_kmod-mac80211=y
-CONFIG_PACKAGE_kmod-nf-ipvs=y
-CONFIG_PACKAGE_kmod-veth=y
-CONFIG_PACKAGE_libacl=y
-CONFIG_PACKAGE_libarchive=y
-CONFIG_PACKAGE_libatomic=y
-CONFIG_PACKAGE_libattr=y
-CONFIG_PACKAGE_libbz2=y
-CONFIG_PACKAGE_libcbor=y
-CONFIG_PACKAGE_libcharset=y
-CONFIG_PACKAGE_libestr=y
-CONFIG_PACKAGE_libeudev=y
-CONFIG_PACKAGE_libexpat=y
-CONFIG_PACKAGE_libfastjson=y
-CONFIG_PACKAGE_libfdisk=y
-CONFIG_PACKAGE_libffi=y
-CONFIG_PACKAGE_libfido2=y
-CONFIG_PACKAGE_libgpiod=y
-CONFIG_PACKAGE_libiconv-full=y
-CONFIG_PACKAGE_libinih=y
-CONFIG_PACKAGE_libiwinfo-lua=y
-CONFIG_PACKAGE_liblua5.3=y
-CONFIG_PACKAGE_liblzma=y
-CONFIG_PACKAGE_liblzo=y
-CONFIG_PACKAGE_libmagic=y
-CONFIG_PACKAGE_libmount=y
-CONFIG_PACKAGE_libpcap=y
-CONFIG_PACKAGE_libpython3=y
-CONFIG_PACKAGE_libqrencode=y
-CONFIG_PACKAGE_libseccomp=y
-CONFIG_PACKAGE_libssh2=y
-CONFIG_PACKAGE_libstdcpp=y
-CONFIG_PACKAGE_liburcu=y
-CONFIG_PACKAGE_libusb-1.0=y
-CONFIG_PACKAGE_libyaml=y
-CONFIG_PACKAGE_libzstd=y
-CONFIG_PACKAGE_lsattr=y
-CONFIG_PACKAGE_lsblk=y
-CONFIG_PACKAGE_luci-app-amlogic=y
-CONFIG_PACKAGE_luci-app-ssr-plus=m
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_NONE_Client=y
-CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_NONE_Server=y
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
-CONFIG_PACKAGE_luci-i18n-amlogic-zh_Hans=y
-CONFIG_PACKAGE_luci-i18n-ssr-plus-zh_Hans=m
-CONFIG_PACKAGE_more=y
-CONFIG_PACKAGE_mount-utils=y
-CONFIG_PACKAGE_ncat=y
-CONFIG_PACKAGE_netcat=y
-CONFIG_PACKAGE_nmap-full=y
-CONFIG_PACKAGE_openssh-keygen=y
-CONFIG_PACKAGE_openssh-server=y
-CONFIG_PACKAGE_pcat-manager=y
-CONFIG_PACKAGE_pdnsd-alt=y
-CONFIG_PACKAGE_perl=y
-CONFIG_PACKAGE_perl-http-date=y
-CONFIG_PACKAGE_perlbase-base=y
-CONFIG_PACKAGE_perlbase-bytes=y
-CONFIG_PACKAGE_perlbase-charnames=y
-CONFIG_PACKAGE_perlbase-class=y
-CONFIG_PACKAGE_perlbase-config=y
-CONFIG_PACKAGE_perlbase-cwd=y
-CONFIG_PACKAGE_perlbase-dynaloader=y
-CONFIG_PACKAGE_perlbase-errno=y
-CONFIG_PACKAGE_perlbase-essential=y
-CONFIG_PACKAGE_perlbase-fcntl=y
-CONFIG_PACKAGE_perlbase-file=y
-CONFIG_PACKAGE_perlbase-filehandle=y
-CONFIG_PACKAGE_perlbase-getopt=y
-CONFIG_PACKAGE_perlbase-i18n=y
-CONFIG_PACKAGE_perlbase-integer=y
-CONFIG_PACKAGE_perlbase-io=y
-CONFIG_PACKAGE_perlbase-list=y
-CONFIG_PACKAGE_perlbase-locale=y
-CONFIG_PACKAGE_perlbase-params=y
-CONFIG_PACKAGE_perlbase-posix=y
-CONFIG_PACKAGE_perlbase-re=y
-CONFIG_PACKAGE_perlbase-scalar=y
-CONFIG_PACKAGE_perlbase-selectsaver=y
-CONFIG_PACKAGE_perlbase-socket=y
-CONFIG_PACKAGE_perlbase-symbol=y
-CONFIG_PACKAGE_perlbase-tie=y
-CONFIG_PACKAGE_perlbase-time=y
-CONFIG_PACKAGE_perlbase-unicode=y
-CONFIG_PACKAGE_perlbase-unicore=y
-CONFIG_PACKAGE_perlbase-utf8=y
-CONFIG_PACKAGE_perlbase-xsloader=y
-CONFIG_PACKAGE_pigz=y
-CONFIG_PACKAGE_pv=y
-CONFIG_PACKAGE_python3-base=y
-CONFIG_PACKAGE_python3-ctypes=y
-CONFIG_PACKAGE_python3-light=y
-CONFIG_PACKAGE_python3-logging=y
-CONFIG_PACKAGE_python3-yaml=y
-CONFIG_PACKAGE_qrencode=y
-CONFIG_PACKAGE_rp-pppoe-common=y
-CONFIG_PACKAGE_rp-pppoe-relay=y
-CONFIG_PACKAGE_rsyslog=y
-CONFIG_PACKAGE_runc=y
-CONFIG_PACKAGE_screen=y
-CONFIG_PACKAGE_sed=y
-CONFIG_PACKAGE_sysstat=y
-CONFIG_PACKAGE_tar=y
-CONFIG_PACKAGE_time=y
-CONFIG_PACKAGE_tini=y
-CONFIG_PACKAGE_tree=y
-CONFIG_PACKAGE_uuidgen=y
-CONFIG_PACKAGE_whereis=y
-CONFIG_PACKAGE_which=y
-CONFIG_PACKAGE_whois=y
-CONFIG_PACKAGE_wol=y
-CONFIG_PACKAGE_wpa-cli=y
-CONFIG_PACKAGE_wpad=y
-CONFIG_PACKAGE_wpad-basic=m
-CONFIG_PACKAGE_wpad-openssl=m
-CONFIG_PACKAGE_xfs-fsck=y
-CONFIG_PACKAGE_xfs-mkfs=y
-CONFIG_PACKAGE_xray-core=m
-CONFIG_PACKAGE_xz=y
-CONFIG_PACKAGE_xz-utils=y
-CONFIG_PERL_NOCOMMENT=y
-CONFIG_PERL_THREADS=y
-CONFIG_TARGET_KERNEL_PARTSIZE=64
-CONFIG_TARGET_ROOTFS_PARTSIZE=512
-CONFIG_TARGET_ROOTFS_TARGZ=y
-CONFIG_ZSTD_OPTIMIZE_O3=y
-CONFIG_PACKAGE_coreutils=y
-CONFIG_PACKAGE_coreutils-base64=y
-CONFIG_PACKAGE_dns2socks=y
-CONFIG_PACKAGE_dns2tcp=y
-CONFIG_PACKAGE_libev=y
-CONFIG_PACKAGE_libsodium=y
-CONFIG_PACKAGE_libuci-lua=y
-CONFIG_PACKAGE_libudns=y
-CONFIG_PACKAGE_lua-neturl=y
-CONFIG_PACKAGE_microsocks=y
-CONFIG_PACKAGE_mosdns=y
-CONFIG_PACKAGE_resolveip=y
-CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
-CONFIG_PACKAGE_shadowsocks-rust-ssserver=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-check=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
-CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
-CONFIG_PACKAGE_simple-obfs-client=y
-CONFIG_PACKAGE_tcping=y
+#=================================================
+# https://github.com/Lancenas/Actions-Lean-OpenWrt
+# Description: Build OpenWrt using GitHub Actions
+# Lisence: MIT
+# Author: P3TERX
+# Blog: https://P3TERX.com
+#=================================================
+
+name: OpenWrt Builder mjh-new 0803
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+
+env:
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
+  FEEDS_CONF: feeds.conf.default
+  CONFIG_FILE: mjh-new.config
+  DIY_P1_SH: diy-part1.sh
+  DIY_P2_SH: diy-part2.sh
+  UPLOAD_BIN_DIR: false
+  UPLOAD_FIRMWARE: true
+  UPLOAD_COWTRANSFER: false
+  UPLOAD_WETRANSFER: false
+  UPLOAD_RELEASE: true
+  TZ: Asia/Shanghai
+  PACK_DOWNLOAD_TARGET_PATH: openwrtPack/armvirt64
+  KERNEL_REPO_URL: ophub/kernel
+
+jobs:
+  build:
+##    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    outputs:
+      deviceName: ${{ env.DEVICE_NAME }}
+      fileDate: ${{ env.FILE_DATE }}
+
+    steps:
+    - name: Before freeing up disk space
+      run: |
+        echo "Before freeing up disk space"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+
+    # - name: "Optimize Disk Space"
+      # uses: "hugoalh/disk-space-optimizer-ghaction@v0.8.1"
+      # with:
+        # operate_sudo: "True"
+        # general_include: ".+"
+        # general_exclude: |-
+          # ^GCC$
+          # ^G\+\+$
+          # Clang
+          # LLVM
+        # docker_include: ".+"
+        # docker_prune: "True"
+        # docker_clean: "True"
+        # apt_prune: "True"
+        # apt_clean: "True"
+        # homebrew_prune: "True"
+        # homebrew_clean: "True"
+        # npm_prune: "True"
+        # npm_clean: "True"
+        # os_swap: "True"
+
+    - name: Freeing up disk space
+      uses: easimon/maximize-build-space@master
+      with: 
+        root-reserve-mb: 3072
+        swap-size-mb: 1
+        remove-dotnet: 'true'
+        remove-android: 'true'
+        remove-haskell: 'true'
+        remove-codeql: 'true'
+        remove-docker-images: 'true'
+
+    - name: Free up disk space complete
+      run: |
+        echo "Free up disk space complete"
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
+
+    - name: Checkout
+      uses: actions/checkout@main
+
+    - name: Initialization environment
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        sudo -E apt-get -qq update
+        sudo -E apt-get -qq -y install $(curl -fsSL https://tinyurl.com/ubuntu2204-build-armbian)
+        sudo -E apt-get -qq install ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential bzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev libreadline-dev libssl-dev libtool lrzsz mkisofs msmtp ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
+        sudo -E apt-get -qq install ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \
+        bzip2 ccache clang cmake cpio curl device-tree-compiler flex gawk gcc-multilib g++-multilib gettext \
+        genisoimage git gperf haveged help2man intltool libc6-dev-i386 libelf-dev libfuse-dev libglib2.0-dev \
+        libgmp3-dev libltdl-dev libmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libpython3-dev \
+        libreadline-dev libssl-dev libtool llvm lrzsz msmtp ninja-build p7zip p7zip-full patch pkgconf \
+        python3 python3-pyelftools python3-setuptools qemu-utils rsync scons squashfs-tools subversion \
+        swig texinfo uglifyjs upx-ucl unzip vim wget xmlto xxd zlib1g-dev
+        sudo -E apt-get -qq autoremove --purge
+        sudo -E apt-get -qq clean
+        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+        sudo rm -rf /etc/apt/sources.list.d/* /usr/local/lib/android /opt/ghc /usr/share/dotnet /usr/local/graalvm /usr/local/.ghcup \
+        /usr/local/share/powershell /usr/local/share/chromium /usr/local/lib/node_modules
+        sudo docker image prune --all --force
+        sudo timedatectl set-timezone "$TZ"
+        sudo chown $USER:$GROUPS $GITHUB_WORKSPACE
+#        sudo mkdir -p /workdir
+#        sudo chown $USER:$GROUPS /workdir
+
+    - name: Clone source code
+      working-directory: ./
+      run: |
+        df -hT $PWD
+        git clone --depth=1 $REPO_URL -b $REPO_BRANCH openwrt
+#        git clone $REPO_URL -b $REPO_BRANCH openwrt
+#        ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+
+    - name: Load custom feeds
+      run: |
+        [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
+        chmod +x $DIY_P1_SH
+        cd openwrt
+        $GITHUB_WORKSPACE/$DIY_P1_SH
+
+    - name: Update feeds
+      run: cd openwrt && ./scripts/feeds update -a
+
+    - name: Install feeds
+      run: cd openwrt && ./scripts/feeds install -a
+
+    - name: Load custom configuration
+      run: |
+        [ -e files ] && mv files openwrt/files
+        [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
+        chmod +x $DIY_P2_SH
+        cd openwrt
+        $GITHUB_WORKSPACE/$DIY_P2_SH
+
+    - name: Download package
+      id: package
+      run: |
+        cd openwrt
+        make defconfig
+        make download -j$(($(nproc) * 3 / 2))
+        find dl -size -1024c -exec ls -l {} \;
+        find dl -size -1024c -exec rm -f {} \;
+
+    - name: Compile the firmware
+      id: compile
+      run: |
+        cd openwrt
+        echo -e "$(nproc) thread compile"
+        make -j$(($(nproc) * 3 / 2)) || make -j1 || make -j1 V=s
+        echo "status=success" >> $GITHUB_OUTPUT
+        grep '^CONFIG_TARGET.*DEVICE.*=y' .config | sed -r 's/.*DEVICE_(.*)=y/\1/' > DEVICE_NAME
+        [ -s DEVICE_NAME ] && echo "DEVICE_NAME=_$(cat DEVICE_NAME)" >> $GITHUB_ENV
+        echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
+
+    - name: Check space usage
+      if: ${{ !cancelled() }}
+      run: df -hT
+
+    - name: Upload bin directory
+      uses: actions/upload-artifact@main
+      if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
+      with:
+        name: OpenWrt_bin${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        path: openwrt/bin
+
+    - name: Organize files
+      id: organize
+      if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
+      run: |
+        cd openwrt/bin/targets/*/*
+        rm -rf packages
+        echo "FIRMWARE=$PWD" >> $GITHUB_ENV
+        echo "status=success" >> $GITHUB_OUTPUT
+
+    - name: Upload firmware directory
+      uses: actions/upload-artifact@main
+      if: steps.organize.outputs.status == 'success' && !cancelled()
+      with:
+        name: OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+        path: ${{ env.FIRMWARE }}
+
+# - name: Upload firmware to cowtransfer
+    #   id: cowtransfer
+    #   if: steps.organize.outputs.status == 'success' && env.UPLOAD_COWTRANSFER == 'true' && !cancelled()
+    #   run: |
+    #     curl -fsSL git.io/file-transfer | sh
+    #     ./transfer cow --block 2621440 -s -p 64 --no-progress ${FIRMWARE} 2>&1 | tee cowtransfer.log
+    #     echo "::warning file=cowtransfer.com::$(cat cowtransfer.log | grep https)"
+    #     echo "url=$(cat cowtransfer.log | grep https | cut -f3 -d" ")" >> $GITHUB_OUTPUT
+
+    # - name: Upload firmware to WeTransfer
+    #   id: wetransfer
+    #   if: steps.organize.outputs.status == 'success' && env.UPLOAD_WETRANSFER == 'true' && !cancelled()
+    #   run: |
+    #     curl -fsSL git.io/file-transfer | sh
+    #     ./transfer wet -s -p 16 --no-progress ${FIRMWARE} 2>&1 | tee wetransfer.log
+    #     echo "::warning file=wetransfer.com::$(cat wetransfer.log | grep https)"
+    #     echo "url=$(cat wetransfer.log | grep https | cut -f3 -d" ")" >> $GITHUB_OUTPUT
+
+    # - name: Generate release tag
+    #   id: tag
+    #   if: env.UPLOAD_RELEASE == 'true' && !cancelled()
+    #   run: |
+    #     echo "release_tag=$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
+    #     touch release.txt
+    #     [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
+    #     [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
+    #     echo "status=success" >> $GITHUB_OUTPUT
+
+    # - name: Upload firmware to release
+    #   uses: softprops/action-gh-release@v1
+    #   if: steps.tag.outputs.status == 'success' && !cancelled()
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #   with:
+    #     tag_name: ${{ steps.tag.outputs.release_tag }}
+    #     body_path: release.txt
+    #     files: ${{ env.FIRMWARE }}/*
+
+    # - name: Delete workflow runs
+    #   uses: Mattraks/delete-workflow-runs@v2
+    #   with:
+    #     retain_days: 1
+    #     keep_minimum_runs: 3
+
+    # - name: Remove old Releases
+    #   uses: dev-drprasad/delete-older-releases@v0.1.0
+    #   if: env.UPLOAD_RELEASE == 'true' && !cancelled()
+    #   with:
+    #     keep_latest: 3
+    #     delete_tags: true
+    #   env:
+    #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+    - name: Generate release tag
+      id: tag
+      if: env.UPLOAD_RELEASE == 'true' && !cancelled()
+      run: |
+        echo "release_tag=$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
+        touch release.txt
+        [ ${UPLOAD_GOFILE} = true && ${{ steps.gofile.outputs.url }} ] && echo "🔗 [GoFile](${{ steps.gofile.outputs.url }})" >> release.txt
+        echo "status=success" >> $GITHUB_OUTPUT
+
+    - name: Upload firmware to release
+      uses: softprops/action-gh-release@master
+      if: steps.tag.outputs.status == 'success' && !cancelled()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.tag.outputs.release_tag }}
+        body_path: release.txt
+        files: ${{ env.FIRMWARE }}/*
+
+    - name: Upload OpenWrt Firmware to Release
+      uses: ncipollo/release-action@main
+      if: steps.tag.outputs.status == 'success' && !cancelled()
+      with:
+        tag: ${{ steps.tag.outputs.release_tag }}
+        artifacts: ${{ env.FIRMWARE }}/*
+        allowUpdates: true
+        removeArtifacts: false
+        replacesArtifacts: true
+        token: ${{ secrets.GITHUB_TOKEN }}
+        body: |
+          ### OpenWrt Image information
+          - Default IP: 192.168.1.1
+          - Default username: root
+          - Default password: password
+          - Default WIFI name: OpenWrt
+          - Default WIFI password: none
+          ### Install to EMMC
+          - Login to OpenWrt → System → Amlogic Service → Install OpenWrt
+          ### OpenWrt source code
+          - [lede](https://github.com/coolsnowwolf/lede)
+          ### OpenWrt Image Verification
+          - sha256sum
+
+    - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2
+
+    - name: Remove old Releases
+      uses: dev-drprasad/delete-older-releases@master
+      if: env.UPLOAD_RELEASE == 'true' && !cancelled()
+      with:
+        keep_latest: 3
+        delete_tags: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  pack:
+    runs-on: ubuntu-latest
+    needs: [build]
+    env:
+      DEVICE_NAME: ${{ needs.build.outputs.deviceName }}
+      FILE_DATE: ${{ needs.build.outputs.fileDate }}
+    strategy:
+      fail-fast: false
+      matrix:
+        PACK_PACKAGE_SOC: ['s905x3', 's922x']
+        PACK_KERNEL_VERSION_NAME: ['6.6.y', '6.12.y']
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+
+      - name: Initialization environment
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        if: ${{ needs.build.result }} == 'success' && !cancelled()
+        run: |
+          sudo -E apt-get -qq update
+          sudo -E apt-get -qq full-upgrade
+          sudo -E apt-get -qq install util-linux uuid-runtime parted dosfstools e2fsprogs btrfs-progs git
+          sudo -E apt-get -qq autoremove --purge
+          sudo -E apt-get -qq clean
+          sudo rm -rf /etc/apt/sources.list.d/* /usr/local/lib/android /opt/ghc /usr/share/dotnet /usr/local/graalvm /usr/local/.ghcup \
+          /usr/local/share/powershell /usr/local/share/chromium /usr/local/lib/node_modules
+          sudo timedatectl set-timezone "$TZ"
+
+      - name: Download Artifact Target
+        uses: actions/download-artifact@main
+        id: downloadArtifact
+        if: ${{ needs.build.result }} == 'success' && !cancelled()
+        with:
+          name: OpenWrt_firmware${{ env.DEVICE_NAME }}${{ env.FILE_DATE }}
+          path: ${{ env.PACK_DOWNLOAD_TARGET_PATH }}
+
+      - name: Package OpenWrt Firmware
+        uses: ophub/flippy-openwrt-actions@main
+        if: ${{ steps.downloadArtifact.outcome }} == 'success' && !cancelled()
+        env:
+          OPENWRT_ARMVIRT: ${{ env.PACK_DOWNLOAD_TARGET_PATH }}/*rootfs.tar.gz
+          PACKAGE_SOC: ${{ matrix.PACK_PACKAGE_SOC }}
+          KERNEL_REPO_URL: ${{ env.KERNEL_REPO_URL }}
+          KERNEL_VERSION_NAME: ${{ matrix.PACK_KERNEL_VERSION_NAME }}
+          KERNEL_AUTO_LATEST: true
+
+      - name: Organize files
+        id: organize
+        if: ${{ env.PACKAGED_STATUS }} == 'success' && !cancelled()
+        run: |
+          cd ${{ env.PACKAGED_OUTPUTPATH }}
+          rm -rf *rootfs.tar.gz *rootfs.tar.gz.sha
+          echo "status=success" >> $GITHUB_OUTPUT
+
+      - name: Upload firmware directory
+        uses: actions/upload-artifact@main
+        if: ${{ steps.organize.outputs.status }} == 'success' && !cancelled()
+        with:
+          name: OpenWrt_firmware_${{ matrix.PACK_PACKAGE_SOC }}_${{ matrix.PACK_KERNEL_VERSION_NAME }}${{ env.FILE_DATE }}
+          path: ${{ env.PACKAGED_OUTPUTPATH }}
+
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          retain_days: 1
+          keep_minimum_runs: 3
+
+      - name: Remove old Releases
+        uses: dev-drprasad/delete-older-releases@v0.1.0
+        if: env.UPLOAD_RELEASE == 'true' && !cancelled()
+        with:
+          keep_latest: 3
+          delete_tags: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
